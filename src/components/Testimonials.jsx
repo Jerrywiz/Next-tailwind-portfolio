@@ -18,6 +18,8 @@ const Testimonials = () => {
         <h2 className="title" data-aos="fade-down">
           {Testimonials.title}
         </h2>
+        <br />
+        <h4 style={{color:"red"}}>And</h4>
         <h4 className="subtitle" data-aos="fade-down">
           {Testimonials.subtitle}
         </h4>

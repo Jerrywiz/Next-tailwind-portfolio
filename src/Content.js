@@ -59,17 +59,17 @@ export const content = {
   ],
   hero: {
     title: "Frontend Developer",
-    firstName: "JEREMIAH",
+  
  
     btnText: "ContactMe",
     image: Hero_person,
     hero_content: [
       {
-        count: "3+",
-        text: "Years of Experinse in Web development",
+        count: "2+",
+        text: "Years of Experinse in Software development",
       },
       {
-        count: "10+",
+        count: "5+",
         text: "Projects Worked in my career",
       },
     ],
@@ -88,11 +88,7 @@ export const content = {
         para: "Lorem ipsum text  dummy",
         logo: nodejs,
       },
-      {
-        name: "",
-        para: "Lorem ipsum text  dummy",
-        logo: ps,
-      },
+    
       {
         name: "React js",
         para: "Lorem ipsum text  dummy",
@@ -109,7 +105,7 @@ export const content = {
         logo: python,
       },
       {
-        name: "Angular ",
+        name: "Angular",
         para: "Lorem ipsum text  dummy",
         logo: ps,
       },
@@ -117,24 +113,43 @@ export const content = {
     icon: MdArrowForward,
   },
   services: {
-    title: "Services",
-    subtitle: "WHAT I OFFER",
+    title: "Projects",
+    subtitle: "Recent Projects",
     service_content: [
       {
-        title: "Web Development",
+        title: "Ilimikit",
         para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: services_logo1,
+        demoLink:"nnnnnn",
+        repo:"hhhhhhhhh"
+
       },
       {
-        title: "ui / ux DESIGNING",
+        title: "Nakise",
         para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: services_logo2,
       },
       {
-        title: "PhotoShop Editing",
+        title: "My Portfolio",
         para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: services_logo3,
       },
+      {
+        title: "My Portfolio",
+        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        logo: services_logo3,
+      },
+      {
+        title: "My Portfolio",
+        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        logo: services_logo3,
+      },
+      {
+        title: "My Portfolio",
+        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        logo: services_logo3,
+      },
+      
     ],
   },
   Projects: {
@@ -157,8 +172,8 @@ export const content = {
     ],
   },
   Testimonials: {
-    title: "Testimonials",
-    subtitle: "MY CLIENT REVIEWS",
+    title: "Certifications",
+    subtitle: "Awards",
     testimonials_content: [
       {
         review:

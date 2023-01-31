@@ -1,4 +1,5 @@
 import { content } from "../Content";
+import 
 
 const Services = () => {
   const { services } = content;
@@ -25,6 +26,7 @@ const Services = () => {
               <h6 className="my-3">{content.title}</h6>
               <p className="leading-7">{content.para}</p>
             </div>
+            
           ))}
         </div>
       </div>
