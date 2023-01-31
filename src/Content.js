@@ -17,10 +17,10 @@ import services_logo3 from "./assets/images/Services/logo3.png";
 // import project3 from "./assets/images/projects/img3.png";
 // import person_project from "./assets/images/projects/person.png";
 
-// import avatar1 from "./assets/images/Testimonials/avatar1.png";
+import avatar1 from "./assets/images/Testimonials/avatar1.png";
 // import avatar2 from "./assets/images/Testimonials/avatar2.png";
 // import avatar3 from "./assets/images/Testimonials/avatar3.png";
-// import avatar4 from "./assets/images/Testimonials/avatar4.png";
+import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
 import Hireme_person from "./assets/images/Hireme/person.png";
 import Hireme_person2 from "./assets/images/Hireme/person2.png";
@@ -161,42 +161,41 @@ export const content = {
     ],
   },
   Testimonials: {
-    title: "Certifications",
-    subtitle: "Awards",
+    title: "Education",
+    subtitle: "Certification",
     testimonials_content: [
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        // img: avatar1,
-        name: "JOHN DOE",
+          "Bachelor Of Science, Mass Communication",
+        img: avatar1,
+        name: "Lagos State University",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "DIGITAL SKILLS FOR THE WORKPLACE TRAINING",
+        img: avatar4,
+        name: "TECH4DEV AND GIZ",
+      },
+      {
+        review:
+          "Participant, Cloud Service Management",
         // img: avatar2,
-        name: "Tom Alex",
+        name: " Cloud Service",
       },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        // img: avatar3,
-        name: "Johnny",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        // img: avatar4,
-        name: "ROBBIN",
-      },
+    
+      
     ],
   },
   Hireme: {
-    title: "Hire Me",
-    subtitle: "FOR YOUR PROJECTS",
+    title: "Get to meet me",
+    subtitle: "Check My Github For Recent Works",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-    btnText: "Hire Me",
+    para: ` I have years of experience designing and building responsive web design and mobile
+    apps.  with extensive knowledge of UX and
+    user psychology. Passionate about learning and eager to tackle more complex
+    problems and continue to find ways to maximize user efficiency`,
+    btnText: "Check Github"
   },
   Contact: {
     title: "Contect Me",
