@@ -60,7 +60,7 @@ export const content = {
   hero: {
     title: "Frontend Developer",
     firstName: "JEREMIAH",
-    LastName: "Aimiton ",
+ 
     btnText: "ContactMe",
     image: Hero_person,
     hero_content: [
@@ -89,7 +89,7 @@ export const content = {
         logo: nodejs,
       },
       {
-        name: "Adobe Photoshop",
+        name: "",
         para: "Lorem ipsum text  dummy",
         logo: ps,
       },
@@ -101,7 +101,7 @@ export const content = {
       {
         name: "React Native",
         para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        logo: reactjs,
       },
       {
         name: "Next Js",
@@ -111,7 +111,7 @@ export const content = {
       {
         name: "Angular ",
         para: "Lorem ipsum text  dummy",
-        logo: python,
+        logo: ps,
       },
     ],
     icon: MdArrowForward,
