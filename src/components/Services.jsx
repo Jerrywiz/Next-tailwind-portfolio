@@ -1,5 +1,6 @@
 import { content } from "../Content";
-import 
+import {Grid }from "@mui/material"
+
 
 const Services = () => {
   const { services } = content;
@@ -25,6 +26,11 @@ const Services = () => {
               <img src={content.logo} alt="..." className="mx-auto" />
               <h6 className="my-3">{content.title}</h6>
               <p className="leading-7">{content.para}</p>
+              <div style={{display:"flex", justifyContent:"space-between", marginTop:2 }} >
+                <a style={{backgroundColor:"red", color:"white"}}  href={content.demoLink} target="blank">Demo </a>
+                <a style={{backgroundColor:"green", color:"white"}} href="">Repository </a>
+                </div>
+             
             </div>
             
           ))}

@@ -117,21 +117,22 @@ export const content = {
     subtitle: "Recent Projects",
     service_content: [
       {
-        title: "Ilimikit",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "React Ts",
+        para: "A driven learning management which faciliates enhace improved learning and teaching experience",
         logo: services_logo1,
-        demoLink:"nnnnnn",
-        repo:"hhhhhhhhh"
+        demoLink:"https://ilimi-kit-dev.netlify.app/signin",
+   
 
       },
       {
-        title: "Nakise",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "React Js",
+        para: "End-to-end automation solution that digitizes the user journey of users within the digital literacy program management value chain.",
         logo: services_logo2,
+        demoLink:"https://nakise-dev.netlify.app/"
       },
       {
-        title: "My Portfolio",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Next Js",
+        para: "The website was built with Next Js and Tailwind Css it includs my resume and my achievement over the past years",
         logo: services_logo3,
       },
       {
