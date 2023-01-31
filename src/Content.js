@@ -58,18 +58,18 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
-    btnText: "Hire Me",
+    title: "Frontend Developer",
+    firstName: "JEREMIAH",
+    LastName: "Aimiton ",
+    btnText: "ContactMe",
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
+        count: "3+",
         text: "Years of Experinse in Web development",
       },
       {
-        count: "20+",
+        count: "10+",
         text: "Projects Worked in my career",
       },
     ],
@@ -79,12 +79,12 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "Figma",
+        name: "Javascript",
         para: "Lorem ipsum text  dummy",
         logo: figma,
       },
       {
-        name: "Node js",
+        name: "Typescript",
         para: "Lorem ipsum text  dummy",
         logo: nodejs,
       },
@@ -99,12 +99,17 @@ export const content = {
         logo: reactjs,
       },
       {
-        name: "Sketch",
+        name: "React Native",
         para: "Lorem ipsum text  dummy",
         logo: sketch,
       },
       {
-        name: "Python",
+        name: "Next Js",
+        para: "Lorem ipsum text  dummy",
+        logo: python,
+      },
+      {
+        name: "Angular ",
         para: "Lorem ipsum text  dummy",
         logo: python,
       },
