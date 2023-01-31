@@ -27,6 +27,7 @@ import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
+import {AiFillLinkedin} from "react-icons/ai"
 import { MdArrowForward, MdCall } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
@@ -135,21 +136,8 @@ export const content = {
         para: "The website was built with Next Js and Tailwind Css it includs my resume and my achievement over the past years",
         logo: services_logo3,
       },
-      {
-        title: "My Portfolio",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo3,
-      },
-      {
-        title: "My Portfolio",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo3,
-      },
-      {
-        title: "My Portfolio",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo3,
-      },
+     
+   
       
     ],
   },
@@ -215,19 +203,19 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "jeremiahaimiton@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "https://mail.google.com/mail/u/0/#inbox?compose=new",
       },
       {
-        text: "+91 1234 56778",
+        text: "+2349013745815",
         icon: MdCall,
         link: "https://wa.me/1234567890",
       },
       {
-        text: "codeaprogram",
-        icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        text: "jeremiah aimiton",
+        icon: AiFillLinkedin,
+        link: "https://www.linkedin.com/in/jeremiah-aimiton-76861a238/",
       },
     ],
   },
