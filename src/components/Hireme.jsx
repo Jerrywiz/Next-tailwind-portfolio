@@ -34,7 +34,7 @@ const Hireme = () => {
             <p className="leading-7">{Hireme.para}</p>
             <br />
             <button className="btn bg-dark_primary text-white">
-              {Hireme.btnText}
+            <a href="https://github.com/Jerrywiz" target="blank">  {Hireme.btnText}</a>
             </button>
           </div>
         </div>

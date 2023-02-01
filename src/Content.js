@@ -12,20 +12,14 @@ import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-// import project1 from "./assets/images/projects/img1.png";
-// import project2 from "./assets/images/projects/img2.png";
-// import project3 from "./assets/images/projects/img3.png";
-// import person_project from "./assets/images/projects/person.png";
-
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
-// import avatar2 from "./assets/images/Testimonials/avatar2.png";
+import avatar2 from "./assets/images/Testimonials/avatar2.png";
 // import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
 import Hireme_person from "./assets/images/Hireme/person.png";
 import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
-// import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import {AiFillLinkedin} from "react-icons/ai"
 import { MdArrowForward, MdCall } from "react-icons/md";
@@ -46,10 +40,6 @@ export const content = {
       icon: BiUser,
     },
     {
-      link: "#services",
-      icon: RiServiceLine,
-    },
-    {
       link: "#projects",
       icon: RiProjectorLine,
     },
@@ -62,12 +52,12 @@ export const content = {
     title: "Frontend Developer",
   
  
-    btnText: "ContactMe",
+    btnText: "Contact Me",
     image: Hero_person,
     hero_content: [
       {
         count: "2+",
-        text: "Years of Experinse in Software development",
+        text: "Years of Experience in Software development",
       },
       {
         count: "5+",
@@ -81,34 +71,24 @@ export const content = {
     skills_content: [
       {
         name: "Javascript",
-        para: "Lorem ipsum text  dummy",
         logo: figma,
       },
       {
         name: "Typescript",
-        para: "Lorem ipsum text  dummy",
         logo: nodejs,
       },
     
       {
         name: "React js",
-        para: "Lorem ipsum text  dummy",
         logo: reactjs,
       },
       {
         name: "React Native",
-        para: "Lorem ipsum text  dummy",
         logo: reactjs,
       },
       {
         name: "Next Js",
-        para: "Lorem ipsum text  dummy",
         logo: python,
-      },
-      {
-        name: "Angular",
-        para: "Lorem ipsum text  dummy",
-        logo: ps,
       },
     ],
     icon: MdArrowForward,
@@ -122,6 +102,7 @@ export const content = {
         para: "A driven learning management which faciliates enhace improved learning and teaching experience",
         logo: services_logo1,
         demoLink:"https://ilimi-kit-dev.netlify.app/signin",
+        repoLink:"https://github.com/Prunedge-Dev-Team/ilimi-kit-web"
    
 
       },
@@ -129,12 +110,15 @@ export const content = {
         title: "React Js",
         para: "End-to-end automation solution that digitizes the user journey of users within the digital literacy program management value chain.",
         logo: services_logo2,
-        demoLink:"https://nakise-dev.netlify.app/"
+        demoLink:"https://nakise-dev.netlify.app/",
+        repoLink:"https://github.com/Prunedge-Dev-Team/ilimikit-web-ts"
       },
       {
         title: "Next Js",
         para: "The website was built with Next Js and Tailwind Css it includs my resume and my achievement over the past years",
         logo: services_logo3,
+        demoLink:"https://jerrry-portfolio.netlify.app/",
+        repoLink:"https://github.com/Jerrywiz/My-portfolio"
       },
      
    
@@ -145,20 +129,6 @@ export const content = {
     title: "Projects",
     subtitle: "MY CREATION",
     // image: person_project,
-    project_content: [
-      // {
-      //   title: "Gym Website",
-      //   image: project1,
-      // },
-      // {
-      //   title: "Social Media web",
-      //   image: project2,
-      // },
-      // {
-      //   title: "Creative Website",
-      //   image: project3,
-      // },
-    ],
   },
   Testimonials: {
     title: "Education",
@@ -179,9 +149,10 @@ export const content = {
       {
         review:
           "Participant, Cloud Service Management",
-        // img: avatar2,
+        img: avatar2,
         name: " Cloud Service",
       },
+     
     
       
     ],
@@ -198,7 +169,7 @@ export const content = {
     btnText: "Check Github"
   },
   Contact: {
-    title: "Contect Me",
+    title: "Connnect with  Me",
     subtitle: "GET IN TOUCH",
     social_media: [
       {

@@ -28,7 +28,7 @@ const Services = () => {
               <p className="leading-7">{content.para}</p>
               <div style={{display:"flex", justifyContent:"space-between", marginTop:2 }} >
                 <a style={{backgroundColor:"red", color:"white"}}  href={content.demoLink} target="blank">Demo </a>
-                <a style={{backgroundColor:"green", color:"white"}} href="">Repository </a>
+                <a style={{backgroundColor:"green", color:"white"}} href={content.repoLink}>Repository </a>
                 </div>
              
             </div>
