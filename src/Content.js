@@ -99,7 +99,7 @@ export const content = {
     service_content: [
       {
         title: "React Ts",
-        para: "A driven learning management which faciliates enhace improved learning and teaching experience",
+        para: "The tool's comprehensive services allows to track and analyze voter behavior and preferences in real time, providing valuable insights into what mattered most to target audience.",
         logo: services_logo1,
         demoLink:"https://ilimi-kit-dev.netlify.app/signin",
         repoLink:"https://github.com/Prunedge-Dev-Team/ilimi-kit-web"
