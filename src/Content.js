@@ -11,6 +11,7 @@ import python from "./assets/images/Skills/python.png";
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
+import services_logo4 from "./assets/images/Services/logo4.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
@@ -100,9 +101,9 @@ export const content = {
       {
         title: "React Js",
         para: "The tool's comprehensive services allows to track and analyze voter behavior and preferences in real time, providing valuable insights into what mattered most to target audience.",
-        logo: services_logo1,
-        demoLink:"https://ilimi-kit-dev.netlify.app/signin",
-        repoLink:"https://github.com/Prunedge-Dev-Team/ilimi-kit-web"
+        logo: services_logo4,
+        demoLink:"https://polleasy.netlify.app/login",
+        repoLink:"https://github.com/Prunedge-Dev-Team/polleasy-web"
    
 
       },
