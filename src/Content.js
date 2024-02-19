@@ -22,7 +22,7 @@ import Hireme_person from "./assets/images/Hireme/person.png";
 import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
 import { GrMail } from "react-icons/gr";
-import {AiFillLinkedin} from "react-icons/ai"
+import { AiFillLinkedin } from "react-icons/ai";
 import { MdArrowForward, MdCall } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
@@ -51,8 +51,7 @@ export const content = {
   ],
   hero: {
     title: "Frontend Developer",
-  
- 
+
     btnText: "Contact Me",
     image: Hero_person,
     hero_content: [
@@ -78,7 +77,7 @@ export const content = {
         name: "Typescript",
         logo: nodejs,
       },
-    
+
       {
         name: "React js",
         logo: reactjs,
@@ -100,39 +99,38 @@ export const content = {
     service_content: [
       {
         title: "React Js",
-        para: "The tool's comprehensive services allows to track and analyze voter behavior and preferences in real time, providing valuable insights into what mattered most to target audience.",
+        para: "The project allows to track and analyze voter behavior and preferences in real time, providing valuable insights to target audience.",
         logo: services_logo4,
-        demoLink:"https://polleasy.netlify.app/login",
-        repoLink:"https://github.com/Prunedge-Dev-Team/polleasy-web"
-   
-
+        demoLink: "https://polleasy.netlify.app/login",
+        repoLink: "https://github.com/Prunedge-Dev-Team/polleasy-web",
       },
       {
         title: "React Ts",
         para: "A driven management system that enhance learning among college students",
         logo: services_logo1,
-        demoLink:"https://ilimi-kit-dev.netlify.app/signin",
-        repoLink:"https://github.com/Prunedge-Dev-Team/ilimi-kit-web"
-   
-
+        demoLink: "https://ilimi-kit-dev.netlify.app/signin",
+        repoLink: "https://github.com/Prunedge-Dev-Team/ilimi-kit-web",
       },
       {
         title: "React Js",
         para: "End-to-end automation solution that digitizes the user journey of users within the digital literacy program management value chain.",
         logo: services_logo2,
-        demoLink:"https://nakise-dev.netlify.app/",
-        repoLink:"https://github.com/Prunedge-Dev-Team/ilimikit-web-ts"
+        demoLink: "https://nakise-dev.netlify.app/",
+        repoLink: "https://github.com/Prunedge-Dev-Team/ilimikit-web-ts",
+      },
+      {
+        title: "React Native",
+        para: "A clone Of Acess Bank Pension Application, just a static native ap with no integration",
+        logo: "Access Clone",
+        repoLink: "https://github.com/Jerrywiz/AcessClone",
       },
       {
         title: "Next Js",
-        para: "The website was built with Next Js and Tailwind Css it includs my resume and my achievement over the past years",
+        para: "My Personal built with Next Js and Tailwind Css it includs my resume and my achievement over the past years",
         logo: services_logo3,
-        demoLink:"https://jerrry-portfolio.netlify.app/",
-        repoLink:"https://github.com/Jerrywiz/My-portfolio"
+        demoLink: "https://jerrry-portfolio.netlify.app/",
+        repoLink: "https://github.com/Jerrywiz/My-portfolio",
       },
-     
-   
-      
     ],
   },
   Projects: {
@@ -145,26 +143,20 @@ export const content = {
     subtitle: "Certification",
     testimonials_content: [
       {
-        review:
-          "Bachelor Of Science, Mass Communication",
+        review: "Bachelor Of Science, Mass Communication",
         img: avatar1,
         name: "Lagos State University",
       },
       {
-        review:
-          "DIGITAL SKILLS FOR THE WORKPLACE TRAINING",
+        review: "DIGITAL SKILLS FOR THE WORKPLACE TRAINING",
         img: avatar4,
         name: "TECH4DEV AND GIZ",
       },
       {
-        review:
-          "Participant, Cloud Service Management",
+        review: "Participant, Cloud Service Management",
         img: avatar2,
         name: " Cloud Service",
       },
-     
-    
-      
     ],
   },
   Hireme: {
@@ -176,7 +168,7 @@ export const content = {
     apps.  with extensive knowledge of UX and
     user psychology. Passionate about learning and eager to tackle more complex
     problems and continue to find ways to maximize user efficiency`,
-    btnText: "Check Github"
+    btnText: "Check Github",
   },
   Contact: {
     title: "Connnect with  Me",
